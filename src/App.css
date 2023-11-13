@@ -44,3 +44,8 @@ nav ul li a{
   display: block;
   text-align: center;
 }
+
+.cajaNoticia{
+  border: 2px solid black;
+  width: 300px;
+}
