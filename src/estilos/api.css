@@ -1,5 +1,5 @@
 .personajes{
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -7,7 +7,7 @@
     border: 1px solid black;
     padding: 10px;
     border-radius: 5px;
-    margin: 8px;
+    margin: 10px;
     max-width: 300px;
 
 }
@@ -15,6 +15,7 @@
 .personaje h4,
 .personaje h6{
     margin: 0;
+    padding: 0;
 }
 
 .personaje .ficha{
@@ -28,7 +29,7 @@
 }
 
 .personaje .ficha .datos{
-    margin-left: 16px;
+    margin-left: 20px;
 }
 
 .personaje .ficha .foto img{
